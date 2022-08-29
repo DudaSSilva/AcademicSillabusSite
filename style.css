@@ -1,0 +1,158 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#inicio{
+  background-color: #DD2E44;
+}
+
+#pgInicial, .container, #cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#pgInicial button{
+  border: 2px solid #ED1F30;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  background: #FFCC99;
+  color: #ED1F30;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#pgInicial img, #inicio2 img{
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+
+/*Estilização específica da tela de login*/
+
+#cadastro a {
+  text-decoration: none;
+  color: #DD2E44;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.container a{
+  color: black;
+  text-decoration-color: #383838;
+}
+
+.container input{
+  border-radius: 10px;
+  border: 2px solid #383838;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.container button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  background: #F25E7A;
+  color: #FCDBDB;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+/*Estilização específica da página principal*/
+
+#navbar {
+  background-color: #DD2E44;
+  height: 3em;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#cards, #end {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  align-items: center;
+}
+
+#coluna1, #coluna2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#cardFrase{
+  border: 3px solid #F25E7A;
+  border-radius: 10px;
+  background-color: #FFB09D;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  text-align: justify;
+  color: #F25E7A;
+  font-size: 25px;
+  text-transform: uppercase;
+  width: 400px;
+  height: 100px;
+}
+
+#cardFrase img {
+  width: 100px;
+  height: 100px;
+}
+
+#figures img {
+  width: 200px;
+  height: 200px;
+}
+
+#cards img{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6{
+  border: 2px solid #808080;
+  border-radius: 10px;
+  color: black;
+  width: 400px;
+  text-align: start;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#card1, #card5{
+  background-color: #FFCEEF;
+}
+
+#card2, #card4{
+  background-color: #F8E9CE;
+}
+
+#card3, #card6{
+  background-color: #FFCC99;
+}

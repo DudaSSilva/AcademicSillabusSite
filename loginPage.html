@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="inicio2">
+  <div class="container">
+    <img src="images/logo.png"/>
+    <form id="formulario">
+      <div>
+        <div><label for="texto">Usuário ou email:</label></div>
+        <div> <input type="text" id="usuario" placeholder="example@email.com"></div>
+      </div>
+      <div>
+        <div><label for="texto">Senha:</label></div>
+        <div><input type="text" id="senha" placeholder="*********"></div>
+        <a href="redefinirSenha.html"><h4>Esqueci minha senha</h4></a>
+      </div>
+      <div id="cadastro">
+        <label for="texto">Não tem conta?</label>
+        <a href="cadastroPage.html"><h3>CADASTRE-SE</h3></a>
+      </div>
+    </form>
+    <div id="container">
+      <button onclick="entrar('usuario', 'senha')">ENTRAR</button>
+      <a href="https://www.instagram.com/academicsyllabus/"><button>SIGA-NOS NO INSTAGRAM</button></a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
